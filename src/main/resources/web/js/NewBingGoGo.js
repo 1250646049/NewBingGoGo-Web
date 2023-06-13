@@ -44,7 +44,7 @@ function domLoadServerConfig(h1,h2,p,serverConfig){
     function hasShow(element,text){
         if(element){
             if (text){
-                element.innerText = text;
+                element.innerHTML = text;
                 element.style.opacity = '1';
             }else {
                 element.style.opacity = '0';
